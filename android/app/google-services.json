@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "869303010677",
+    "project_id": "zomaato-a64ad",
+    "storage_bucket": "zomaato-a64ad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:869303010677:android:0449b3336da8b7fa6aff3c",
+        "android_client_info": {
+          "package_name": "com.example.zomato_meals"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "869303010677-iuqd2v3b2bsg7dh90j519lasbl76a2i7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbj4RYz9I49UAUnF-e0lYo56eHPf-VR98"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "869303010677-iuqd2v3b2bsg7dh90j519lasbl76a2i7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

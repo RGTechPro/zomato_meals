@@ -9,6 +9,7 @@ class ChefCard extends StatelessWidget {
       padding: const EdgeInsets.all(8.0),
       child: Card(
         color: Colors.white,
+        surfaceTintColor: Colors.white,
         elevation: 4, // Shadow elevation of the card
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(15),
@@ -30,6 +31,7 @@ class ChefCard extends StatelessWidget {
                 top: 105,
                 left: 20,
                 child: Row(
+                  crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Container(
                       width: 125,
@@ -55,32 +57,41 @@ class ChefCard extends StatelessWidget {
                       ),
                     ),
                     Padding(
-                      padding: EdgeInsets.all(16),
+                      padding: EdgeInsets.symmetric(horizontal: 16),
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
+                          SizedBox(
+                            height: 22,
+                          ),
                           Text(
                             'Nisha Madhulika',
                             style: TextStyle(
-                              fontSize: 18,
+                              fontSize: 15,
                             ),
                           ),
                           Text(
                             'Gurgaon Sector 21',
                             style: TextStyle(
-                              fontSize: 18,
+                              fontSize: 15,
                             ),
+                          ),
+                          SizedBox(
+                            height: 10,
                           ),
                           Text(
                             '205 meals served',
                             style: TextStyle(
-                              fontSize: 18,
+                              fontSize: 15,
                             ),
+                          ),
+                          SizedBox(
+                            height: 7,
                           ),
                           Row(
                             children: [
                               Container(
-                                height: 35,
+                                height: 30,
                                 alignment: Alignment.center,
                                 padding: const EdgeInsets.symmetric(
                                     vertical: 4, horizontal: 12),
@@ -94,11 +105,14 @@ class ChefCard extends StatelessWidget {
                                 child: Text(
                                   'Punjabi',
                                   style: const TextStyle(
-                                      color: Colors.black, fontSize: 15),
+                                      color: Colors.black, fontSize: 12),
                                 ),
                               ),
+                              SizedBox(
+                                width: 5,
+                              ),
                               Container(
-                                height: 35,
+                                height: 30,
                                 alignment: Alignment.center,
                                 padding: const EdgeInsets.symmetric(
                                     vertical: 4, horizontal: 12),
@@ -112,7 +126,7 @@ class ChefCard extends StatelessWidget {
                                 child: Text(
                                   '🏋️‍♀️ Gym Diet',
                                   style: const TextStyle(
-                                      color: Colors.black, fontSize: 15),
+                                      color: Colors.black, fontSize: 12),
                                 ),
                               ),
                             ],
@@ -120,6 +134,17 @@ class ChefCard extends StatelessWidget {
                         ],
                       ),
                     ),
+                    Column(
+                      children: [
+                        SizedBox(
+                          height: 25,
+                        ),
+                        Icon(
+                          Icons.check_circle,
+                          color: Colors.green,
+                        ),
+                      ],
+                    )
                   ],
                 ),
               ),
